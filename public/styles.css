@@ -1,20 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Raleway&display=swap");
 .header {
-  background: #DCDCDC;
-  width: 100%;
+  background-color: hsl(0, 10%, 94%);
   height: 80px;
-  box-shadow: 1px 1px #FFFFFF;
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
+  box-shadow: 1px 1px 3px hsl(0, 0%, 5%);
+}
+.header .brand-logo {
+  height: 80px;
+  display: flex;
+  padding: 0 40px;
+  line-height: 80px;
 }
 .header .navigation {
   display: flex;
   justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
 }
 .header .item-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
   font-family: "Poppins";
   font-weight: 700;
+  text-decoration: none;
+}
+.header .link-item {
+  margin: 0 10px;
+  width: max-content;
+  line-height: 80px;
+  color: hsl(0, 0%, 5%);
 }
 
 /*# sourceMappingURL=styles.css.map */

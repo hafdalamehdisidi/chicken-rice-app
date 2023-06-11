@@ -1,23 +1,48 @@
 @import "_configurations";
 
 .header {
-    background: #DCDCDC;
-    width: 100%;
+    background-color: hsla(0, 10, 94, 1);
     height: 80px;
-    box-shadow: 1px 1px #FFFFFF;
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
+    box-shadow: 1px 1px 3px hsla(0, 0, 5, 1);
+
+    .brand-logo {
+        height: 80px;
+        display: flex;
+        padding: 0 40px;
+        line-height: 80px;
+    }
 
     .navigation {
         display: flex;
         justify-content: space-between;
-        }
+        max-width: 992px;
+        margin: 0 auto;
+    }
 
     .item-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 40px;
         font-family: $poppins;
         font-weight: $title-weight;
-        }
+        text-decoration: none;
+      
+    }
+
+    .link-item {
+        margin: 0 10px;
+        width: max-content;
+        line-height: 80px;
+        color: hsla(0, 0, 5, 1);
+    }
+
+}
+
 
         
 
@@ -26,4 +51,3 @@
     
         
      
-}
