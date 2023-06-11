@@ -1,0 +1,28 @@
+{
+  "name": "chicken-rice-app",
+  "version": "1.0.0",
+  "description": "This is a practise proyect to html css sass and js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-w": "sass --watch src/scss:public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafdalamehdisidi/chicken-rice-app.git"
+  },
+  "keywords": [
+    "food",
+    "chicken",
+    "rice"
+  ],
+  "author": "Hafdala Mehdi Sidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafdalamehdisidi/chicken-rice-app/issues"
+  },
+  "homepage": "https://github.com/hafdalamehdisidi/chicken-rice-app#readme",
+  "devDependencies": {
+    "sass": "^1.63.3"
+  }
+}
