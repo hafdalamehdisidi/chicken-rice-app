@@ -1,8 +1,8 @@
-let slider = document.querySelector(".slider-contenedor")
-let sliderIndividual = document.querySelectorAll(".contenido-slider")
+let slider = document.querySelector(".slider-container")
+let sliderIndividual = document.querySelectorAll(".content-slider")
 let contador = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 3000;
+let intervalo = 5000;
 
 window.addEventListener("resize", function(){
     width = sliderIndividual[0].clientWidth;
@@ -16,14 +16,14 @@ setInterval(function(){
 
 function slides(){
     slider.style.transform = "translate("+(-width*contador)+"px)";
-    slider.style.transition = "transform .8s";
+    slider.style.transition = "transform 3.5s";
     contador++;
 
     if(contador == sliderIndividual.length){
         setTimeout(function(){
             slider.style.transform = "translate(0px)";
-            slider.style.transition = "transform .8s";
+            slider.style.transition = "transform 3.5s";
             contador=1;
-        },1600)
+        },5000)
     }
 }

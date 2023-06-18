@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Es sitio web es de receta de arroz con pollo || Dieta sana">
+  <meta name="keywords" content="Chicken, Rice, receipe, heathly">
+  <meta name="author" content="Hafdala Mehdi Sidi">
+  <meta name="copyright" content="Pollo S.L. todos los derechos reservados">
   <title>Chicken Rice App</title>
   <link rel="icon" type="image/png" href="/public/favicon.png">
   <link rel="stylesheet" href="/public/reesetstyles.css">
@@ -16,6 +20,9 @@
       <a href="#" class="brand-logo">
         <img src="/public/logo_sin_fondo.png" alt="Logo de pollo">
       </a>
+      <div class="container-title">
+        <h1 class="principal-title">Rico arroz con pollo</h1>
+      </div>
       <ul class="item-navigation">
         <li><a class="link-item" href="#">Inicio</a></li>
         <li><a class="link-item" href="#">Receta</a></li>
@@ -24,39 +31,40 @@
     </nav>
   </header>
   <main>
-    <div class="contenedor">
-      <div class="slider-contenedor">
-        <section class="contenido-slider">
+    <div class="slides-container">
+      <div class="slider-container">
+        <section class="content-slider">
           <div>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
-              sed. Quos cupiditate id delectus est.</h2>
+            <h2>Nos ponemos manos a la obra para cocinar nuestro arroz con pollo, ponte tu delantal, un poco de música y
+              disfruta haciendo esta fantástica y saludable receta.</h2>
             <a href="#">Saber más</a>
           </div>
           <img src="/src/assets/img/cooking.svg" alt="Vector de chef">
 
         </section>
-        <section class="contenido-slider">
+        <section class="content-slider">
           <div>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
-              sed. Quos cupiditate id delectus est.</h2>
+            <h2>Nosotros te indicamos el proceso de compra y preparación de la receta. Coge bolígrafo y papel para
+              preparar esta sencilla receta.</h2>
             <a href="#">Saber más</a>
           </div>
           <img src="/src/assets/img/ingredients.svg" alt="Vector con lista de ingredientes">
 
         </section>
-        <section class="contenido-slider">
+        <section class="content-slider">
           <div>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
-              sed. Quos cupiditate id delectus est.</h2>
+            <h2>Disfruta comiendo un plato rico y muy saludable, solo elige el como y cuando comerlo y nosotros te
+              enseñamos como se prepara.</h2>
             <a href="#">Saber más</a>
           </div>
           <img src="/src/assets/img/eating.svg" alt="Vector de dos personas comiendo">
 
         </section>
-        <section class="contenido-slider">
+        <section class="content-slider">
           <div>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa ipsam aliquam natus quidem
-              sed. Quos cupiditate id delectus est.</h2>
+            <h2>Sigue los pasos de la receta indicados en el apartado de ingredientes y preparación para realizar
+              correctamente el plato. Recuerda que también tenemos un temporizador para que te preocupes solamente de
+              hacer este rico plato</h2>
             <a href="#">Saber más</a>
           </div>
           <img src="/src/assets/img/aprende.svg" alt="Vector de aprender">
@@ -65,12 +73,33 @@
       </div>
     </div>
   </main>
-  <footer>
+  <footer class="footer">
+    <div class="logo-container">
+      <a href="#" class="brand-logo">
+        <img src="/public/logo_sin_fondo.png" alt="Logo de pollo">
+      </a>
+      <div class="adress">
+        <p class="adress-corp">Calle bullevar, 7, 2º izq, 41110,Bollullos de la Mitación, Sevilla, Spain.</p>
+        <p class="phone">+34 966584477.</p>
+        <p class="mail">corp.pollo@pollo.com.</p>
+      </div>
+    </div>
+    <section class="rrss-icons">
+      <div class="icons-rrss">
+        <ul class="list-icons">
+          <li class="facebook"><a href="#"><i class="fa-brands fa-facebook" aria-hidden=""></i></a></li>
+        </ul>
+      </div>
+    </section>
+    <div class="copyright">
+      <p class="copy">Sitio web creado y diseñado por: Hafdala Mehdi Sidi <span class="c">&#169</span>: Todos los
+        derechos reserevados.</p>
+    </div>
   </footer>
   <script src="/src/js/header.js"></script>
   <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/ad3ef30911.js" crossorigin="anonymous"></script>
-  <script src="/src/js/main.js"></script>
+  <script src="/src/js/slides.js"></script>
 </body>
 
 </html>

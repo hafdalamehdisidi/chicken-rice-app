@@ -1,0 +1,66 @@
+.footer {
+    width: 100%;
+    height: 130px;
+    background: hsla(0, 10, 94, 1);
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+        .brand-logo {
+        height: 100px;
+        display: flex;
+        padding: 0 40px;
+        line-height: 100px;
+
+        :hover{
+        transform: scale(1.3);
+        transition: 900ms;
+        }
+}
+
+    .adress {
+        display: inline-block;
+        font-family: $poppins;
+        font-weight: 400;
+        margin-top: 0.5em;
+
+        .adress-corp {
+            margin-top: 0.5em;
+        }
+
+        .phone {
+            margin-top: 0.5em;
+        }
+
+        .mail {
+            margin-top: 0.5em;
+        }
+    }
+
+    .copyright {
+        background: $secundary-color;
+        width: 100%;
+        margin-top: 7px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .copy {
+            color: #FFFFFF;
+            font-family: $raleway;
+
+            .c {
+                background: #FFFFFF;
+                color: #000000;
+                border-radius: 50%;
+                font-weight: 700;
+                font-size: 15px;
+                
+            }
+        }
+    }
+    
+}
