@@ -216,6 +216,7 @@
   background: hsl(0, 10%, 94%);
   border-radius: 50%;
   display: flex;
+  margin-right: 20px;
 }
 .footer .list-icons {
   display: flex;
@@ -241,6 +242,21 @@
 .footer .youtube {
   font-size: 30px;
   margin: 5px;
+}
+.footer i {
+  color: #000000;
+}
+
+.receipe {
+  background: hsl(0, 10%, 94%);
+  font-family: "Raleway";
+  font-weight: 600;
+}
+.receipe .ingredients-container {
+  background: #FFFFFF;
+  width: 65%;
+  height: 65%;
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
