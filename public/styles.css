@@ -247,16 +247,4 @@
   color: #000000;
 }
 
-.receipe {
-  background: hsl(0, 10%, 94%);
-  font-family: "Raleway";
-  font-weight: 600;
-}
-.receipe .ingredients-container {
-  background: #FFFFFF;
-  width: 65%;
-  height: 65%;
-  display: flex;
-}
-
 /*# sourceMappingURL=styles.css.map */
