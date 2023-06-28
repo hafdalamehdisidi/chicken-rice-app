@@ -247,4 +247,39 @@
   color: #000000;
 }
 
+.receipe {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+}
+.receipe .ingredients-container {
+  background: hsl(0, 0%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.receipe .ingredients-title {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.receipe .ingredients-title .pharagraph-ingredients {
+  font-family: "Raleway";
+  font-weight: 400;
+}
+.receipe .prepare-receipe {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.receipe .prepare-receipe .pharagraph-prepare {
+  font-family: "Raleway";
+  font-weight: 400;
+  text-align: left;
+}
+.receipe .aside-temp {
+  background: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,47 @@
+.receipe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+
+
+    .ingredients-container {
+    background: hsla(0, 0, 55, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .ingredients-title {
+        text-align: center;
+        font-family: $poppins;
+        font-weight: 700;
+
+        .pharagraph-ingredients {
+            font-family: $raleway;
+            font-weight: 400;
+
+        }
+    }
+
+    .prepare-receipe {
+        text-align: center;
+        font-family: $poppins;
+        font-weight: 700;
+
+        .pharagraph-prepare {
+            font-family: $raleway;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+        
+    
+
+    .aside-temp {
+            background: #FFFFFF;
+        }
+
+}
+    
